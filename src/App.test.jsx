@@ -5,5 +5,5 @@ import { render, screen } from '@testing-library/react'
 test('renders', () => {
     render(<App />)
 
-    expect(screen.getByText('Hello Vitest')).toBeInTheDocument()
+    expect(screen.getAllByText('React Vitest').length).not.toBe(0);
 })
