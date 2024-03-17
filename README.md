@@ -90,3 +90,11 @@ test('renders', () => {
     expect(screen.getByText('Hello Vitest')).toBeInTheDocument()
 })
 ```
+
+Testing Cases:
+
+- Test With Mock Data
+- Test With Mock Data Covering All Branches
+- Test User Interactions
+- Test State Updates
+- Test API Calls
